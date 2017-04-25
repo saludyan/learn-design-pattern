@@ -23,4 +23,10 @@
 
 ![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/FactoryUML.jpeg)
 
-工厂模式是我们最常用的实例化对象模式了，是用工厂方法代替new操作的一种模式。著名的Jive论坛 ,就大量使用了工厂模式，工厂模式在Java程序系统可以说是随处可见。因为工厂模式就相当于创建实例对象的new，我们经常要根据类Class生成实例对象，如A a=new A() 工厂模式也是用来创建实例对象的，所以以后new时就要多个心眼，是否可以考虑使用工厂模式，虽然这样做，可能多做一些工作，但会给你系统带来更大的可扩展性和尽量少的修改量
+- 简单工厂模式（Simple Factory）：不利于产生系列产品；
+
+- 工厂方法模式（Factory Method）：又称为多形性工厂；
+
+- 抽象工厂模式（Abstract Factory）：又称为工具箱，产生产品族，但不利于产生新的产品；
+             这三种模式从上到下逐步抽象，并且更具一般性。
+             GOF在《设计模式》一书中将工厂模式分为两类：工厂方法模式（Factory Method）与抽象工厂模式（Abstract Factory）。将简单工厂模式（Simple Factory）看为工厂方法模式的一种特例，两者归为一类。
