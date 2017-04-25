@@ -2,7 +2,7 @@
 ###  设计模式学习
 
 #### Strategy - 策略模式
-![Strategy](https://github.com/saludyan/learn-design-pattern/images/StrategyUML.jpeg)
+![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/StrategyUML.jpeg)
 
 定义一系列的算法,把每一个算法封装起来, 并且使它们可相互替换。本模式使得算法可独立于使用它的客户而变化。
 
