@@ -34,4 +34,6 @@
         
 #### Singleton - 单例模式
 
+![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/SingleUML.jpeg)
+
 单件模式是一种用于确保整个应用程序中只有一个类实例且这个实例所占资源在整个应用程序中是共享时的程序设计方法（根据实际情况，可能需要几个类实例）。在某些情况下，这种程序设计方法是很有用处的。
