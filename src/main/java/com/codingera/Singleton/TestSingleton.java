@@ -14,8 +14,22 @@ public class TestSingleton {
                     System.out.println(Singleton.getInstance().hashCode());
                 }
             };
+            Runnable t2 = new Runnable() {
+                public void run() {
+                    // 如果打印都是同一hashCode,证明是同一个例子
+                    System.out.println(Singleton.getInstance().hashCode());
+                }
+            };
+            Runnable t3 = new Runnable() {
+                public void run() {
+                    // 如果打印都是同一hashCode,证明是同一个例子
+                    System.out.println(Singleton.getInstance().hashCode());
+                }
+            };
 
             new Thread(t).start();
+            new Thread(t2).start();
+            new Thread(t3).start();
         }
 
         Thread.currentThread().sleep(10000);

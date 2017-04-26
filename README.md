@@ -9,19 +9,19 @@
 
 #### Observer - 观察者模式
 
-![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/ObserverUML.jpeg)
+![Observer](https://github.com/saludyan/learn-design-pattern/raw/master/images/ObserverUML.jpeg)
 
 观察者模式（有时又被称为发布（publish ）-订阅（Subscribe）模式、模型-视图（View）模式、源-收听者(Listener)模式或从属者模式）是软件设计模式的一种。在此种模式中，一个目标物件管理所有相依于它的观察者物件，并且在它本身的状态改变时主动发出通知。这通常透过呼叫各观察者所提供的方法来实现。此种模式通常被用来实现事件处理系统。
 
 #### Decorator - 装饰模式
 
-![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/DecoratorUML.jpeg)
+![Decorator](https://github.com/saludyan/learn-design-pattern/raw/master/images/DecoratorUML.jpeg)
 
 在不必改变原类文件和使用继承的情况下，动态地扩展一个对象的功能。它是通过创建一个包装对象，也就是装饰来包裹真实的对象
 
 #### Factory - 工厂模式
 
-![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/FactoryUML.jpeg)
+![Factory](https://github.com/saludyan/learn-design-pattern/raw/master/images/FactoryUML.jpeg)
 
 - 简单工厂模式（Simple Factory）：不利于产生系列产品；
 
@@ -34,6 +34,12 @@
         
 #### Singleton - 单例模式
 
-![Strategy](https://github.com/saludyan/learn-design-pattern/raw/master/images/SingleUML.jpeg)
+![Singleton](https://github.com/saludyan/learn-design-pattern/raw/master/images/SingleUML.jpeg)
 
 单件模式是一种用于确保整个应用程序中只有一个类实例且这个实例所占资源在整个应用程序中是共享时的程序设计方法（根据实际情况，可能需要几个类实例）。在某些情况下，这种程序设计方法是很有用处的。
+
+#### Command - 命令模式
+
+![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/SingleUML.jpeg)
+
+将请求封装成对象,这可以让你使用不同的请求,队列,或者日志请求来参数化其它对象,命令模式也可一直支持撤销操作
