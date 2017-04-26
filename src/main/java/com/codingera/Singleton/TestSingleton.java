@@ -10,25 +10,12 @@ public class TestSingleton {
 
             Runnable t = new Runnable() {
                 public void run() {
-                    Singleton.getInstance().subtraction();
-                    Singleton.getInstance().showNumber();
+                    // 如果打印都是同一hashCode,证明是同一个例子
+                    System.out.println(Singleton.getInstance().hashCode());
                 }
             };
-            Runnable t2 = new Runnable() {
-                public void run() {
-                    Singleton.getInstance().subtraction();
-                    Singleton.getInstance().showNumber();
-                }
-            };
-            Runnable t3 = new Runnable() {
-                public void run() {
-                    Singleton.getInstance().subtraction();
-                    Singleton.getInstance().showNumber();
-                }
-            };
+
             new Thread(t).start();
-            new Thread(t2).start();
-            new Thread(t3).start();
         }
 
         Thread.currentThread().sleep(10000);
