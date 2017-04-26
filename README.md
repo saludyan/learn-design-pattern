@@ -40,6 +40,6 @@
 
 #### Command - 命令模式
 
-![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/SingleUML.jpeg)
+![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/CommandUML.jpeg)
 
 将请求封装成对象,这可以让你使用不同的请求,队列,或者日志请求来参数化其它对象,命令模式也可一直支持撤销操作
