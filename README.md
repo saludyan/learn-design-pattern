@@ -46,8 +46,15 @@
 
 
 
-#### Adapter - 适配者模式
+#### Adapter - 适配器模式
 
 ![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/Adapter.jpeg)
 
 把一个接口转成另一个接口
+
+
+#### Facade - 外观模式
+
+![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/Facade.jpeg)
+
+我们通过外观的包装，使应用程序只能看到外观对象，而不会看到具体的细节对象，这样无疑会降低应用程序的复杂度，并且提高了程序的可维护性
