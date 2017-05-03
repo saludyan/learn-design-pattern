@@ -43,3 +43,11 @@
 ![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/CommandUML.jpeg)
 
 将请求封装成对象,这可以让你使用不同的请求,队列,或者日志请求来参数化其它对象,命令模式也支持撤销操作
+
+
+
+#### Adapter - 适配者模式
+
+![Command](https://github.com/saludyan/learn-design-pattern/raw/master/images/Adapter.jpeg)
+
+把一个接口转成另一个接口
