@@ -58,3 +58,10 @@
 ![Facade](https://github.com/saludyan/learn-design-pattern/raw/master/images/Facade.jpeg)
 
 我们通过外观的包装，使应用程序只能看到外观对象，而不会看到具体的细节对象，这样无疑会降低应用程序的复杂度，并且提高了程序的可维护性
+
+
+#### TemplateMethod - 模板方法模式
+
+![TemplateMethod](https://github.com/saludyan/learn-design-pattern/raw/master/images/Facade.jpeg)
+
+在一个方法中定义一个算法的骨架,而将一些步骤延迟到子类中.模板方法使得子类可以再不改变算法结构的情况下,重新定义算法中的某些步骤
