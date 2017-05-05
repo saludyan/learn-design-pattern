@@ -68,6 +68,12 @@
 
 #### Iterator - 迭代器模式
 
-![TemplateMethod](https://github.com/saludyan/learn-design-pattern/raw/master/images/Iterator.jpeg)
+![Iterator](https://github.com/saludyan/learn-design-pattern/raw/master/images/Iterator.jpeg)
 
 提供一种方法顺序访问一个聚合对象中的各个元素,而又不暴露其内部的表示
+
+#### Composite - 组合模式
+
+![Composite](https://github.com/saludyan/learn-design-pattern/raw/master/images/Composite.jpeg)
+
+允许你将对象组合树形结构来表现"整体/部分"的层次结构.组合能让客户以一致的方式处理个别对象和对象组合
