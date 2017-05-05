@@ -62,6 +62,12 @@
 
 #### TemplateMethod - 模板方法模式
 
-![TemplateMethod](https://github.com/saludyan/learn-design-pattern/raw/master/images/Facade.jpeg)
+![TemplateMethod](https://github.com/saludyan/learn-design-pattern/raw/master/images/TemplateMethod.jpeg)
 
 在一个方法中定义一个算法的骨架,而将一些步骤延迟到子类中.模板方法使得子类可以再不改变算法结构的情况下,重新定义算法中的某些步骤
+
+#### Iterator - 迭代器模式
+
+![TemplateMethod](https://github.com/saludyan/learn-design-pattern/raw/master/images/Iterator.jpeg)
+
+提供一种方法顺序访问一个聚合对象中的各个元素,而又不暴露其内部的表示
